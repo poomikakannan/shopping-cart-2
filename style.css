@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b67c3;
+}
+.shopping_cart_container{
+    width: 70%;
+    height: 85%; 
+}
+h1{
+    color:  rgb(255,255,255);
+    font-family: sans-serif;
+}
+.cart1_div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart2_div{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+.form_container1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.form1{
+    width: 90%;
+    height: 20%;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif ;
+}
+.form2{
+    width: 90%;
+    height: 20%;
+}
+.form3{
+    width: 90%;
+    height: 30%;
+
+}
+button{
+    width: 250px;
+    height: 25px;
+    background-color: #451ad3;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    color: rgb(255,255,255);
+    font-size: 15px;
+
+}
+.form_container2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+.content{
+    width: 95%;
+    height: 95%;
+}
+.box1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    width: 90%;
+    height: 240px; 
+    overflow-y: auto;
+    
+}
+.productContainer{
+    width: 90%;
+    height: 60px;
+     display: flex; 
+     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px; 
+}
+hr{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.balance{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}

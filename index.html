@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="shopping_cart_container">
+           <div class="cart1_div">
+                <h1>
+                    Shopping Cart
+                </h1>
+           </div>
+            <div class="cart2_div">
+                <div class="form_container1">
+                    <form name="frm">
+                        <div class="form1" id="product_form">
+                            <p>Product Name</p>
+                            <input type="text" name="Product Name" placeholder="Product" >
+                        </div>
+                        <div class="form2"  id="amount_form">
+                            <p>Amount</p>
+                            <input type="number" name="Amount" placeholder="amount">
+                        </div> 
+                        <div class="form3">
+                            <button type="submit" id="btn">Add to cart</button>
+                        </div>
+                    </form> 
+                </div>
+                <hr>
+                <div class="form_container2">
+                        <div class="content">
+                            <div class="box1">
+                                <div class="product_div"><p>product Name</p></div>
+                                <div class="amount_div"><p>Amount</p></div>
+                            </div>
+                            <div class="box2">
+
+                            </div>
+                            <div class="balance">
+                                <p>Total Amount</p>
+                                <p id="total-balance">0</p>
+                            </div>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
